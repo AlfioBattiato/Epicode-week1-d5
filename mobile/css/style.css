@@ -1,0 +1,147 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+/*generiche*/
+body {
+    text-align: center;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+a,button{
+    cursor: pointer;
+}
+
+h4 {
+    color: #25a2c3;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+/*header */
+.logo {
+    padding: 2rem;
+    background-color: black;
+}
+
+.logo img {
+    max-width: 9rem;
+}
+
+/*main*/
+.first-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: 1rem;
+}
+
+.first-section {
+    padding:  2rem 1.3rem;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #f04c2f;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin-top: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.second-section {
+    padding: 3rem 1rem;
+}
+
+.second-section img {
+    border-radius: 50%;
+    max-width: 16rem;
+}
+
+.second-section div {
+    margin-bottom: 1.5rem;
+}
+
+.epicode-garantisce {
+    background-color: #e22d0e;
+    color: white;
+    padding: 2.5rem 0.8rem;
+}
+
+.epicode-garantisce h1, footer h1  {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
+}
+
+.epicode-garantisce p {
+    font-size: 1rem;
+    font-style: oblique;
+}
+
+.epicode-garantisce span {
+    font-size: 14px;
+}
+
+.epicode-garantisce h2{
+    margin-top: 1.8rem;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card {
+    margin: 2rem 1.5rem;
+    border: 1px solid #dee1e3;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+
+.contenitore-card {
+    padding-block: 1rem;
+}
+
+.contenitore-card h1 {
+    color: #25a2c3;
+    font-weight: 700;
+    padding-block: 10px;
+}
+
+.contenitore-card p {
+    padding-bottom: 2rem;
+    padding-inline: 14px;
+}
+/*footer */
+footer{
+    background-color: #25a2c3;
+    color: white;
+    padding: 2rem 2rem 5rem 2rem;
+
+}
+footer a ,footer p ,footer hr{
+    color: #c8e7f0;
+    font-size:16px ;
+}
+hr{
+    margin-block: 1.5rem;
+    max-width: 63%;
+}
+footer span{
+    color: white;
+    margin-right: 3px;
+}
